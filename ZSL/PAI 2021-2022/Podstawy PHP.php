@@ -52,4 +52,5 @@ E;
 echo "text1"."text2";
 //dzięki backslashowi traktuje zmienną jako stringa
 echo "<br><br>Imię: \$name"; 
+//end
 ?>
