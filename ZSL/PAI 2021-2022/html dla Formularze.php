@@ -1,5 +1,4 @@
 <!<!DOCTYPE html>
-<<!DOCTYPE html>
 <html lang="pl" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -13,9 +12,10 @@
       <input type="submit" value="Zatwierdź dane">
     </form>
     <?php
-    echo $_GET["name"]
-    if (sset($_GET["name"])) {
+    if (!empty($_GET["name"]) && !empty($_GET["surname"])) { //!empty musi być pusty formularz
       echo $_GET["name"];
+    } else {
+      echo "Wypełnij wszystkie pola";
     }
     ?>
 
