@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="pl" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -8,13 +7,13 @@
   <body>
     <?php
     if (!empty($_GET["age"]) && !empty($_GET["name"])) {
-      echo <<<
+      $name = ucfirst(strtolower($_GET["name"]));
+      echo <<< L
       <h3>Dane użytkownika pobrane z formulara</h3>
-      Imię: $_GET[name]<br>
+      Imię: $name[name]<br>
       Wiek: $_GET[age])
-      
+L;
     }
-
     ?>
   </body>
 </html>
