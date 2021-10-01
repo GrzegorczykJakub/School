@@ -1,1 +1,1 @@
-
+Switch - funkcja wyboru
