@@ -118,12 +118,12 @@ echo $x; //1
 $x=$x++;
 echo $x; //1
 $x=++$x;
-echo $x;  //2 odwoluje sie do linii 98
+echo $x;  //2 odwoluje sie do linii 120
 $y=++$x;
-echo $x;  //3 odwoluje sie do linii 98
+echo $x;  //3 odwoluje sie do linii 120
 echo $y;  //3
 $y=$x++;
-echo $x;  //4 odwoluje sie do linii 98
+echo $x;  //4 odwoluje sie do linii 120
 echo $y;  //3
 
 //<<<DOLACZANIE PLIKOW>>>//
