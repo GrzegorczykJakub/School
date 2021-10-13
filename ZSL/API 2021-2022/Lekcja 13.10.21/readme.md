@@ -1,1 +1,1 @@
-
+Zadania z pętlami
