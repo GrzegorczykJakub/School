@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Jakub Grzegorczyk\Desktop\School\Informatyka\Lekcja 6.10.21 Tablice i Struktury - Szachy"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Jakub Grzegorczyk/Desktop/School/Informatyka/Lekcja 6.10.21 Tablice i Struktury - Szachy/cmake-build-debug

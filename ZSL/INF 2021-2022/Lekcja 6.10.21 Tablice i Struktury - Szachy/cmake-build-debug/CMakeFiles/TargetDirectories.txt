@@ -1,0 +1,3 @@
+C:/Users/Jakub Grzegorczyk/Desktop/School/Informatyka/Lekcja 6.10.21 Tablice i Struktury - Szachy/cmake-build-debug/CMakeFiles/Lekcja_6_10_21_Tablice_i_Struktury___Szachy.dir
+C:/Users/Jakub Grzegorczyk/Desktop/School/Informatyka/Lekcja 6.10.21 Tablice i Struktury - Szachy/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Jakub Grzegorczyk/Desktop/School/Informatyka/Lekcja 6.10.21 Tablice i Struktury - Szachy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
