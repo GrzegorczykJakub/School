@@ -19,6 +19,9 @@
     f3.close();
     return 0;
 }
+ ios_base::in / do odczytu
+ ios_base::out / do zapisu
+ ios_base::up /do zapisu na koncu
  */
 int main(){
     std::string imie;
