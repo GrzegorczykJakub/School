@@ -1,0 +1,3 @@
+C:/Users/Jakub Grzegorczyk/Desktop/School/Informatyka/Lekcja 29.10.21 Odczytywanie i Zapisywanie z pliku/cmake-build-debug/CMakeFiles/Lekcja_29_10_21_Odczytywanie_i_Zapisywanie_z_pliku.dir
+C:/Users/Jakub Grzegorczyk/Desktop/School/Informatyka/Lekcja 29.10.21 Odczytywanie i Zapisywanie z pliku/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Jakub Grzegorczyk/Desktop/School/Informatyka/Lekcja 29.10.21 Odczytywanie i Zapisywanie z pliku/cmake-build-debug/CMakeFiles/rebuild_cache.dir

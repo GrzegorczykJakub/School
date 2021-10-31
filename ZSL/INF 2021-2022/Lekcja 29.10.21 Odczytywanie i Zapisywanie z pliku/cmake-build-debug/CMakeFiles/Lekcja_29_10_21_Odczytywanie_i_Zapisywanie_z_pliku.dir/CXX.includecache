@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jakub Grzegorczyk/Desktop/School/Informatyka/Lekcja 29.10.21 Odczytywanie i Zapisywanie z pliku/main.cpp
+iostream
+-
+fstream
+-
+

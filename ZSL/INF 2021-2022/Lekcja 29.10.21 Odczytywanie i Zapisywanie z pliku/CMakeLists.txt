@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(Lekcja_29_10_21_Odczytywanie_i_Zapisywanie_z_pliku)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Lekcja_29_10_21_Odczytywanie_i_Zapisywanie_z_pliku main.cpp)
