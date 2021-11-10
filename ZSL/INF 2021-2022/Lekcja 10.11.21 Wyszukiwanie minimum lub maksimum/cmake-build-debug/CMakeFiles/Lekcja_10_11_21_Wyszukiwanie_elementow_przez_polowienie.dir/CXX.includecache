@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jakub Grzegorczyk/Desktop/School/Informatyka/Lekcja 10.11.21 Wyszukiwanie minimum lub maksimum/main.cpp
+iostream
+-
+bits/stdc++.h
+-
+

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(Lekcja_10_11_21_Wyszukiwanie_elementow_przez_polowienie)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Lekcja_10_11_21_Wyszukiwanie_elementow_przez_polowienie main.cpp)
