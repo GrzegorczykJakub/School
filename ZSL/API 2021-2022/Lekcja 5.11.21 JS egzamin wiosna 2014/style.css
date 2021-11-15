@@ -1,0 +1,35 @@
+#banner {
+    text-align: center;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+}
+#container {
+    display: flex;
+}
+#menu {
+    width: calc(40% - 2px);
+    border: 2px solid black;
+    border-top: none;
+    padding: 10px;
+}
+#content {
+    width: calc(60% - 2px);
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+#liczba:hover {
+    color: blue;
+}

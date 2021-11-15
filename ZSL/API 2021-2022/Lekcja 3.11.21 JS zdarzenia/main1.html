@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>zdarzenia</title>
+    </head>
+    <body>
+        <p id="name" onmouseover="color_mouse_on()" onmouseout="color_mouse_out()">Jakub Grzegorczyk</p>
+        <input id="color" type="text" placeholder="Podaj kolor">
+        <input id="number" type="number" placeholder="Miejsce na liczbę"><br>
+        <input id="dalej" onclick="tlo()" type="button" value="Dalej">
+        <script>
+            function color_mouse_on() {
+                document.getElementById("name").style.color="red";
+            }
+            function color_mouse_out() {
+                document.getElementById("name").style.color="black";
+            }
+            function tlo() {
+                document.getElementById("name").style.backgroundColor=document.getElementById("color").value;
+            }
+            dalej.addEventListener("click", function() {
+                document.getElementById("name").style.fontSize=document.getElementById("number").value + "px";
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Opis</title>
+    </head>
+    <body>
+        <div id="banner">
+            <a href="main.html"><img src="baner.jpeg"></a>
+        </div>
+        <div id="container">
+            <div id="menu">
+                <p class="text">MENU</p>
+                <a href="main_opis.html" class="text">Opis</a>
+                <p id="liczba" onclick="liczba()">Jaka to liczba?</p>
+                <a href="main_zakres.html" id="zakres">Liczby całkowite z zakresu</a>
+            </div>
+            <div id="content">
+                <p class="text">Zawartość podstron</p>
+                <p id="name">Grzegorczyk Jakub; klasa 3GI2T</p>
+                <p id="result"></p>
+            </div>
+        </div>
+        <script>
+            function liczba() {
+                document.getElementById("result").innerHTML="";
+                let password=prompt("Podaj hasło");
+                if (password!="liczba") {
+                    alert("Nieprawidłowe hasło");
+                }
+                else if (password == "liczba") {
+                    location.href="main_liczba.html";
+                }
+            }
+        </script>
+    </body>
+</html>

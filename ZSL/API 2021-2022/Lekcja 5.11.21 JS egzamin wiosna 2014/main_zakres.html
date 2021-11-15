@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Liczby całkowite w zakresie</title>
+    </head>
+    <body>
+        <div id="banner">
+            <a href="main.html"><img src="baner.jpeg"></a>
+        </div>
+        <div id="container">
+            <div id="menu">
+                <p class="text">MENU</p>
+                <a href="main_opis.html" id="opis">Opis</a>
+                <p id="liczba" onclick="liczba()">Jaka to liczba?</p>
+                <a href="main_zakres.html" id="zakres">Liczby całkowite w zakresie</a>
+            </div>
+            <div id="content">
+                <p class="text">Podstrony</p>
+                <p id="result"></p>
+            </div>
+        </div>
+        <script>
+            document.getElementById("result").innerHTML="Liczby z zakresu:<br>";
+            let b=parseInt(prompt("Podaj liczbę początkową", 0));
+            let c=parseInt(prompt("Podaj liczbę końcową", 0));
+            if (b<c) {
+                let d=b;
+                while (d<=c) {
+                    if (d==b) {
+                        document.getElementById("result").innerHTML+=d;
+                    }
+                    else {
+                        document.getElementById("result").innerHTML+=", "+d;
+                    }
+                    d=d+1;
+                }
+            }
+            else if (b>c) {
+                let d=b;
+                while (d>=c) {
+                    if (d==b) {
+                        document.getElementById("result").innerHTML+=d;
+                    }
+                    else {
+                        document.getElementById("result").innerHTML+=", "+d;
+                    }
+                    d=d-1;
+                }
+            }
+            else if (b==c) {
+                document.getElementById("result").innerHTML=b;
+            }
+            function liczba() {
+                document.getElementById("result").innerHTML="";
+                let password=prompt("Podaj hasło");
+                if (password!="liczba") {
+                    alert("Nieprawidłowe hasło");
+                }
+                else if (password == "liczba") {
+                    location.href="main_liczba.html";
+                }
+            }
+        </script>
+    </body>
+</html>
