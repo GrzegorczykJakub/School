@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 3</title>
+</head>
+<body>
+    <form>
+        Podaj szerokosc: <input type="number" placeholder="1" id="szerokosc"><br>
+        Podaj dlugosc: <input type="number" placeholder="1" id="dlugosc"><br>
+    </form>
+    <button id="button">Wyslij</button>
+    <p id="p1"></p>
+    <script>
+        //1 farba = 1,5m2
+        document.getElementById("button").addEventListener("click", function() {
+            var szerokosc = document.getElementById("szerokosc").value;
+            var dlugosc = document.getElementById("dlugosc").value;
+            const wysokosc = 2.5;
+            var sciana1_3 = 2*(szerokosc*wysokosc);
+            var sciana2_4 = 2*(dlugosc*wysokosc);
+            var sufit = dlugosc*szerokosc;
+            var laczna_powierzchnia = sciana1_3+sciana2_4+sufit;
+            var farba = laczna_powierzchnia*(1.5);
+            var puszki = Math.ceil(farba);
+            document.getElementById("p1").innerHTML += "Powierzchnia do pomalowania wynosi: "+laczna_powierzchnia+"<br>";
+            document.getElementById("p1").innerHTML += "Potrzbea "+farba+ " puszko-litrow(nie sprecyzowano ile w litrach potreba na m2 farby) farby"+"<br>";
+            document.getElementById("p1").innerHTML += "Potrzeba "+puszki+ " puszek farby.";
+        })
+    </script>
+</body>
+</html>

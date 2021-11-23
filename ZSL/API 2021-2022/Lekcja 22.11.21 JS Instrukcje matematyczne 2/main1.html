@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadanie 1</title>
+</head>
+<body>
+    <form>
+        <input type="number" placeholder="0" id="cyfra">
+    </form>
+    <button id="button">Kliknij</button>
+    <p id="p1"></p>
+    <script>
+        document.getElementById("button").addEventListener("click", function(){
+            var cyfra = document.getElementById("cyfra").value;
+            document.getElementById("p1").innerHTML = "Wprowadzona liczba: " +cyfra+"<br>";
+            var a=0;
+            var suma = 0;
+            const liczby = []
+            document.getElementById("p1").innerHTML = "0";
+            for (var i=0; i<cyfra; i++){
+                var x = Math.round(Math.random()*99+1);
+                liczby.push(x);
+                document.getElementById("p1").innerHTML += " + "+x; 
+                suma += x;
+            } 
+            document.getElementById("p1").innerHTML += " = "+suma;
+
+        });
+    </script>
+</body>
+</html>
