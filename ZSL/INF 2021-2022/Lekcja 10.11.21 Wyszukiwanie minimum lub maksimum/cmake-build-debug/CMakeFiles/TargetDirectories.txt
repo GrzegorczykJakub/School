@@ -1,3 +1,0 @@
-C:/Users/Jakub Grzegorczyk/Desktop/School/Informatyka/Lekcja 10.11.21 Wyszukiwanie minimum lub maksimum/cmake-build-debug/CMakeFiles/Lekcja_10_11_21_Wyszukiwanie_elementow_przez_polowienie.dir
-C:/Users/Jakub Grzegorczyk/Desktop/School/Informatyka/Lekcja 10.11.21 Wyszukiwanie minimum lub maksimum/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Jakub Grzegorczyk/Desktop/School/Informatyka/Lekcja 10.11.21 Wyszukiwanie minimum lub maksimum/cmake-build-debug/CMakeFiles/rebuild_cache.dir
