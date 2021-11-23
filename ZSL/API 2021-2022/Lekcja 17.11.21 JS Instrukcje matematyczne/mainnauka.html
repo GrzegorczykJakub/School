@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="imie" id="tekst"><br>
+        <input type="number" placeholder="0" id="numer"><br>
+        <input type="button" value="Kliknij" id="button">
+    </form>
+    <p id="p1"></p>
+    <script>
+        document.getElementById("button").addEventListener("click", wywolanie)
+        function wywolanie(){
+            var imie = document.getElementById("tekst").value
+            var wiek = document.getElementById("numer").value
+            var i = 1;
+            for (i; i<=wiek; i++){
+                if (i == wiek) document.getElementById("p1").innerHTML += imie;
+                else document.getElementById("p1").innerHTML += imie +" ";
+        }
+        }
+    </script>
+</body>
+</html>

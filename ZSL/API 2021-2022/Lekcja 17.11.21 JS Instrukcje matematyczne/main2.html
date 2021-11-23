@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 2</title>
+</head>
+<body>
+    <div id="zad2"></div>
+    <div id="zad22"></div>
+    <script>    
+        var promien = parseInt(prompt("Podaj mi promien"))
+    if (promien === ""){
+        alert("Podaj wartosc")
+    }
+    else{
+        var dlugosc_obwodu = Math.floor((promien*2)* Math.PI);
+        var pole_kola =Math.floor(promien*promien* Math.PI);
+        zad22.innerHTML="Dlugosc obwodu zaokraglona: "+dlugosc_obwodu;
+        zad2.innerHTML="Pole kola zaokraglone: "+pole_kola;
+    }
+    </script>
+</body>
+</html>
