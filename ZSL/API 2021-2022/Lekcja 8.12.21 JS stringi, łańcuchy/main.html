@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrukcje</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Lp.</th>
+            <th>Instrukcja</th>
+            <th>Zastosowana Instrukcja</th>
+            <th>Wyjaśnienie Instrukcji</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td id="a1">big()</td>
+            <td id="a2"></td>
+            <td id="a3">Zwiększa rozmiar czcionki; odpowiednik znacznika &lt;big&gt;</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td id="b1">bold()</td>
+            <td id="b2"></td>
+            <td id="b3">Tekst pogrubiony; odpowiednik znacznika &lt;b&gt;</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td id="c1">italics()</td>
+            <td id="c2"></td>
+            <td id="c3">Tekst pochylony; odpowiednik znacznika &lt;i&gt;</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td id="d1">small()</td>
+            <td id="d2"></td>
+            <td id="d3">Zmniejsza rozmiar czcionki; odpowiednik znacznika &lt;small&gt;</td>
+        </tr>
+        <div>
+        <tr>
+            <td>5</td>
+            <td id="e1">sub()</td>
+            <td id="e2"></td>
+            <td id="e3">Indeks dolny; odpowiednik znacznika &lt;sub&gt;</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td id="f1">strike()</td>
+            <td id="f2"></td>
+            <td id="f3">Tekst przekreslony; odpowiednik znacznika &lt;strike&gt;</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td id="g1">sup()</td>
+            <td id="g2"></td>
+            <td id="g3">Indeks górny; odpowiednik znacznika &lt;sup&gt;</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td id="h1">fontcolor(color)</td>
+            <td id="h2"></td>
+            <td id="h3">Ustawia kolor czcionki (tekstu) na kolor</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td id="i1">fontsize(size)</td>
+            <td id="i2"></td>
+            <td id="i3">Ustawia rozmiar czcionki na wartość rozmiar</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td id="j1">charAt(index)</td>
+            <td id="j2"></td>
+            <td id="j3">Zwraca znak pozycji określonej przez indeks (pierwsza
+                pozycja to 0)</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td id="k1">charCodeAt(index)</td>
+            <td id="k2"></td>
+            <td id="l3">Przeszukuje łańcuch w poszukiwaniu podłańcucha i zwraca
+                pozycję pierwszego znalezionego znaku (wielkość liter jest
+                istotna, gdy tekst nie występuje zwracana jest wartość -1,
+                drugi argument opcjonalny)
+                </td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td id="l1">indexOf(childnode, index) </td>
+            <td id="l2"></td>
+            <td id="l3">Przeszukuje łańcuch w poszukiwaniu podłańcucha w
+                kierunku przeciwnym, czyli od końca i zwraca pozycję, od
+                której zaczyna się tekst (wielkość liter jest istotna, gdy tekst
+                nie występuje zwracana jest wartość -1, drugi argument
+                opcjonalny)</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td id="m1">match(text)</td>
+            <td id="m2"></td>
+            <td id="m3">podobne do indexOf(), ale zamiast pozycji zwraca tekst (null
+                jeśli tekst nie występuje w ciągu, wielkość liter ma
+                znaczenie)</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td id="n1">substring(x, y)</td>
+            <td id="n2"></td>
+            <td id="n3">Zwraca podłańcuch wycięty z łańcucha od pozycji x do
+                pozycji y
+                </td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td id="o1">substr(x, y)</td>
+            <td id="o2"></td>
+            <td id="o3">wycina z łańcucha liczbę znaków długość począwszy od
+                pozycji x (ujemna wartość pierwszego argumentu oznacza
+                pozycję od końca, drugi argument opcjonalny – brak=
+                koniec łańcucha)
+                </td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td id="p1">slice(x, y)</td>
+            <td id="p2"></td>
+            <td id="p3">Wycina fragmentu łańcucha od pozycji x do pozycji y
+                (obydwa argumenty numeryczne, wartość ujemna oznacza
+                pozycję od końca, musi być spełniony warunek x&lt;y, drugi
+                argument opcjonalny – brak oznacza, że y= koniec
+                łańcucha)</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td id="r1">split(znak, dlugosc)</td>
+            <td id="r2"></td>
+            <td id="r3">Dzieli tekst na części. Miejsce podziału jest podawane w
+                parametrze znak, a maksymalna ilość zwracanych
+                elementów w parametrze długość (IE pomija ten parametr):
+                </td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td id="s1">toLowerCase()</td>
+            <td id="s2"></td>
+            <td id="s3">Konwertuje znaki łańcucha na małe litery</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td id="t1">toUpperCase()</td>
+            <td id="t2"></td>
+            <td id="t3">Konwertuje znaki łańcucha na wielkie litery
+            </td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td id="u1">link(url)</td>
+            <td id="u2"></td>
+            <td id="u3">Tekst będzie wyświetlony jako hiperłącze do dokumentu o
+                adresie url
+                </td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td id="w1">concat(text1, text2, ...)</td>
+            <td id="w2"></td>
+            <td id="w3">Dodaje do obiektu łańcuchy znakowe będące argumentami
+                metody (musi wystąpić co najmniej jeden argument)</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td id="y1">replace(old_text, new_text)</td>
+            <td id="y2"></td>
+            <td id="y3">Zamiana w danym łańcuchu podłańcucha stary_tekst na
+                nowy_tekst (wielkość liter jest istotna)
+                </td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td id="z1">text.search(something)</td>
+            <td id="z2"></td>
+            <td id="z3">Przeszukuje tekst pod kątem występowania w nim
+                podanego wzorca - wyrażenia regularnego. Jeżeli tekst nie
+                zostanie dopasowany, funkcja zwraca liczbę -1.
+                Pierwszy znak tekstu ma pozycję 0, a więc taka wartość
+                zwrócona przez funkcję oznacza, że poszukiwany tekst
+                został znaleziony (na samym początku)
+                </td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td id="ab1">text.length</td>
+            <td id="ab2"></td>
+            <td id="ab3">Zwraca długość podanego tekstu</td>
+        </tr>
+    </div>
+    </table>
+    <script>
+        var a2 = "Tekst przykładowy"
+        var b2 = "Tekst przykładowy"
+        var c2 = "Tekst przykładowy"
+        var d2 = "Tekst przykładowy"
+        var e2 = "Tekst przykładowy"
+        var f2 = "Tekst przykładowy"
+        var g2 = "tekst"
+        var h2 = "Tekst przykładowy"
+        var i2 = "Tekst przykładowy"
+        var j2 = "Tekst przykładowy"
+        var k2 = "Tekst przykładowy"
+        var l2 = "Tekst przykładowy"
+        var m2 = "Tekst przykładowy"
+        var n2 = "Tekst przykładowy"
+        var o2 = "Tekst przykładowy"
+        var p2 = "Tekst przykładowy"
+        var r2 = "Tekst przykładowy"
+        var s2 = "Tekst przykładowy"
+        var t2 = "Tekst przykładowy"
+        var u2 = "Tekst przykładowy"
+        var w2 = "Tekst przykładowy"
+        var y2 = "Tekst przykładowy"
+        var z2 = "Tekst przykładowy"
+        var ab2 = "Tekst przykładowy"
+        document.getElementById("a2").innerHTML = a2.big()
+        document.getElementById("b2").innerHTML = b2.bold()
+        document.getElementById("c2").innerHTML = b2.italics()
+        document.getElementById("d2").innerHTML = d2.small()
+        document.getElementById("e2").innerHTML = e2.sub()
+        document.getElementById("f2").innerHTML = f2.strike()
+        document.getElementById("g2").innerHTML = "tekst" + g2.sup(2)
+        document.getElementById("h2").innerHTML = h2
+        document.getElementById("i2").innerHTML = i2.fontsize(6)
+        document.getElementById("j2").innerHTML = j2.charAt(2)
+        document.getElementById("k2").innerHTML = k2.charCodeAt(2)
+        document.getElementById("l2").innerHTML = l2.indexOf("k", 2)
+        document.getElementById("m2").innerHTML = m2.match("t")
+        document.getElementById("n2").innerHTML = n2.substring(o2, "3")
+        document.getElementById("o2").innerHTML = o2.substr(o2, "2")
+        document.getElementById("p2").innerHTML = p2.slice(2, 4)
+        document.getElementById("r2").innerHTML = r2.split("e", 5)
+        document.getElementById("s2").innerHTML = s2.toLowerCase()
+        document.getElementById("t2").innerHTML = t2.toUpperCase()
+        document.getElementById("u2").innerHTML = u2.link("youtube.com")
+        document.getElementById("w2").innerHTML = w2.concat(w2, "test")
+        document.getElementById("y2").innerHTML = y2.replace("st", "kken")
+        document.getElementById("z2").innerHTML = z2.search("k")
+        document.getElementById("ab2").innerHTML = ab2.length        
+    </script>
+</body>
+</html>
