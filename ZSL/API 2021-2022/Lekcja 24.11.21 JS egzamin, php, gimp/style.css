@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+header, img{
+    width: 100%;
+}
+#side{
+    margin-left:3%;
+    float: left;
+}
+#middle{
+    margin-left:47%;
+}
+li{
+    list-style:circle
+}
+#index_p{
+    font-style: italic;
+}
+#strona1_p{
+    font-style: italic;
+}

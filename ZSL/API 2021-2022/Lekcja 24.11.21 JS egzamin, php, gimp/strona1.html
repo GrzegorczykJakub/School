@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>strona1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <a href="main.html"><img src="baner.jpg" alt="baner.jpg"></a>
+    </header>
+    <div id="side">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="strona1.html">proste dzialania</a></li>
+            <li><a href="strona2.php">potegowanie</a></li>
+        </ul>
+    </div>
+    <div id="middle">
+        <h2>Proste działania</h2>
+        <p id="strona1_p">
+        Podaj pierwszą liczbę: <input type="number" id="l1"><br>
+        Podaj drugą liczbę: <input type="number" id="l2">
+    </p>
+    <button id="button1">DODAWANIE</button>
+    <button id="button2">ODEJMOWANIE</button>
+    <button id="button3">MNOŻENIE</button>
+    <button id="button4">DZIELENIE</button>
+    <p id="wynik"></p>
+    </div>
+    <script>
+        document.getElementById("button1").addEventListener("click", function(){
+        var l1 = document.getElementById("l1").value;
+        var l2 = document.getElementById("l2").value;
+        if (l1 == "") alert("Proszę uzupełnić obie liczby.")
+        else if (l2 == "") alert("Proszę uzupełnić obie liczby.")
+        else {
+            var l1 = parseInt(l1)
+            var l2 = parseInt(l2)
+            var wynik = l1+l2;
+            document.getElementById("wynik").innerHTML = "Wynik dodawania: "+wynik;
+        }
+        })
+        document.getElementById("button2").addEventListener("click", function(){
+        var l1 = document.getElementById("l1").value;
+        var l2 = document.getElementById("l2").value;
+        if (l1 == "") alert("Proszę uzupełnić obie liczby.")
+        else if (l2 == "") alert("Proszę uzupełnić obie liczby.")
+        else {
+            var l1 = parseInt(l1)
+            var l2 = parseInt(l2)
+            var wynik = l1-l2;
+            document.getElementById("wynik").innerHTML += "Wynik odejmowania: "+wynik;
+        }    
+        })
+        document.getElementById("button3").addEventListener("click", function(){
+        var l1 = document.getElementById("l1").value;
+        var l2 = document.getElementById("l2").value;
+        if (l1 == "") alert("Proszę uzupełnić obie liczby.")
+        else if (l2 == "") alert("Proszę uzupełnić obie liczby.")
+        else {
+            var l1 = parseInt(l1)
+            var l2 = parseInt(l2)
+            var wynik = l1*l2;
+            document.getElementById("wynik").innerHTML += "Wynik mnożenia: "+wynik;
+        } 
+    })
+        document.getElementById("button4").addEventListener("click", function(){
+        var l1 = document.getElementById("l1").value;
+        var l2 = document.getElementById("l2").value;
+        if (l1 == "") alert("Proszę uzupełnić obie liczby.")
+        else if (l2 == "") alert("Proszę uzupełnić obie liczby.")
+        else {
+            var l1 = parseInt(l1)
+            var l2 = parseInt(l2)
+            if(l1 == 0) alert("Nie wolno dzielić przez 0")
+            else if (l2 == 0) alert("Nie wolno dzielić przez 0")
+            else{
+            var wynik = l1+l2;
+            document.getElementById("wynik").innerHTML += "Wynik dodawania: "+wynik;
+            }
+        }    
+        })
+    </script>
+</body>
+</html>
