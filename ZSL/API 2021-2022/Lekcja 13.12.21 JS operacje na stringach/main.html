@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Podaj imię:<input type="text" id="name"><br>
+        Podaj klasę:<input type="text" id="school_class"><br>
+        Podaj email:<input type="text" id="email"><br>
+    </form>
+    <button id="button">Zatwierdź</button>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <script>
+        document.getElementById("button").addEventListener("click", function(){
+            var name = document.getElementById("name").value
+            var school_class = document.getElementById("school_class").value
+            var email = document.getElementById("email").value
+            if (email.indexOf("@") == -1) alert("Błędny adres e-mail!!!")
+            else{
+                document.getElementById("p1").innerHTML = "Witaj "+name.toUpperCase()+"<br>Jesteś uczniem "+school_class.toLowerCase()+" klasy.";
+                document.getElementById("p2").innerHTML = "Twój adres e-mail to:" +email;
+                document.getElementById("p2").style.color = 'blue'
+            }
+        })
+    </script>
+</body>
+</html>
