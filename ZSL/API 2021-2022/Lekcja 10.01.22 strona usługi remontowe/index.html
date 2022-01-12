@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Usługi remontowe</title>
+</head>
+<body>
+    <div>
+        <h2>Malowanie pokoju: 8 zł za m<sup>2</sup></h2>
+        Wymiary pokoju w metrach: <input type="number" id="wymiar1" step="1"> <input type="number" id="wymiar2" step="1"> 
+        <br><br><button class="button1">OBLICZ KOSZT</button>
+        <br><p id="p1"></p>
+    </div>
+    <script>
+        document.getElementById("button").addEventListener("click", function(){
+            const height = 2.7;
+            const price = 8;
+            var wymiar1 = document.getElementById("wymiar1").value
+            var wymiar2 = document.getElementById("wymiar2").value
+            var wymiary = (wymiar1*height*2) + (wymiar2*height*2)
+            var koszt = wymiary*8;
+            document.getElementById("p1").innerHTML = "Powierzchnia całkowita ścian: " + wymiary+"<br>Koszt malowania: "+koszt +" zł";
+        })
+    </script>
+</body>
+</html>
