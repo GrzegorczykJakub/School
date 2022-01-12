@@ -1,0 +1,28 @@
+.button1{
+    background-color: rgb(185, 22, 22);
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    border: none;
+}
+#footer{
+    background-color: orange;
+    text-align: right;
+    color: white;
+}
+#image{
+    background-image: url('rysunek.png');
+    height: 124px;
+    width: 100%;
+    background-color: rgb(255, 213, 162);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu{
+    float: left;
+    background-color: rgb(191, 112, 17);
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    width: 25%;
+}
