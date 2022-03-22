@@ -1,0 +1,46 @@
+body{
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    clear: both;
+    margin: 10px;
+}
+footer{
+    clear: both;
+    margin: 10px;
+}
+main{
+    clear: both;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+sub{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.clock{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.clock td{
+    height: 20px;
+    border: 1px solid;
+    font-size: 25px;
+    text-align: center;
+}
+.projects{
+    border-spacing: 20px;
+    margin: 20px;
+}
+.projects td{
+    border: 1px solid;
+    max-width: 50%;
+}
+@media screen {
+    .projects img{
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="author" content=""/>
+		<link href="styles/style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<header>
+			<h2>Moje CV</h2><br>
+			<p>Jakub Grzegorczyk - znam:
+			<ul>
+				<li>python</li>
+				<li>js [es6]</li>
+				<li>html, css</li>
+				<li>angular</li>
+				<li>TS</li>
+			</ul>
+			<p>I am a very hard-working individual, carrying some sort of experience despite my young age. I can straightforwardly adapt to new systems and the workﬂow of a new team. Having worked previously with people of diﬀerent nationalities and mindsets on various projects, I ﬁnd myself a non-conﬂict person doing everything to remain on good terms with other team members.
+               <br>I wholeheartedly believe that I am a good candidate for any IT-related apprenticeship.</p>
+		</header>
+		<sub>
+			<p id="date">Dzisiaj jest: </p>
+			<table class="clock">
+				<tr>
+					<td>Godzina</td>
+					<td>Minuta</td>
+					<td>Sekunda</td>
+				</tr>
+				<tr>
+					<td id="HH"></td>
+					<td id="mm"></td>
+					<td id="ss"></td>
+				</tr>
+			</table>
+		</sub>
+		<main>
+			Tutaj znajdziesz moje projekty:
+			<table class="projects">
+				<tr>
+					<td><a href="../Lekcja 10.01.22 strona usługi remontowe/index.html" target="blank"><img src="" alt="remont.jpg"></a></td>
+					<td><a href=""><img src="" alt="component.jpg"></a></td>
+					<td><a href="../Lekcja 3.01.22 JS hasła/index.html" target="blank"><img src="/photos/haslo.png" alt="hasla.png"></a></td>
+				</tr>
+				<tr>
+					<td><a href=""><img src="" alt=""></a></td>
+					<td><a href=""><img src="" alt=""></a></td>
+					<td><a href=""><img src="" alt=""></a></td>
+				</tr>
+			</table>
+			Oceń mój projekt: 
+			<select id="grade">
+				<option value="6">6</option>
+				<option value="5">5</option>
+				<option value="4">4</option>
+				<option value="3">3</option>
+				<option value="2">2</option>
+				<option value="1">1</option>
+			</select>
+			<p id="response"></p>
+		</main>
+		<footer></footer>
+	</body>
+	<script src="scripts/zegar.js"></script>
+	<script src="scripts/script.js"></script>
+	<script title="debug">setTimeout(function(){location.reload()}, 1000)</script>
+</html>
