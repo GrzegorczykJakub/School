@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#first, #second{
+    background-color: rgb(146, 184, 112);
+    text-align: center;
+    width: 50%;
+    height: 170px;
+    float: left;
+}
+#first a{
+    background-image: url(cukierki1.jpg);
+    padding-right: 30px;
+    padding-bottom: 120px;
+    font-size: 150%;
+    text-decoration: none;
+}
+#baner, #stopka{
+    background-color: rgb(100, 61, 49);
+    text-align: center;
+    height: 80px;
+    padding: 5px;
+    clear: both;
+}
+#lewy, #prawy{
+    background-color: rgb(146, 184, 112);
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+/* #a1{
+    background-image: url("cukierki1.jpg");
+    padding-right: 30px;
+    padding-bottom: 120px;
+    font-size: 150%;
+} */
+h1{
+    letter-spacing: 20px;
+    font-size: 250%;
+}
+table, td{
+    border: 2px dotted green;
+    margin: 30px;
+    padding: 20px;
+}
